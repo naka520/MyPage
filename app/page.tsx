@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
@@ -6,10 +8,15 @@ export default function Home() {
           {/* Header Section */}
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 px-8 py-12 sm:px-12 sm:py-16">
             <div className="flex flex-col items-center text-center">
-              <div className="w-32 h-32 bg-white dark:bg-gray-200 rounded-full flex items-center justify-center shadow-lg mb-6">
-                <span className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-blue-600 to-purple-600">
-                  Y
-                </span>
+              <div className="w-32 h-32 bg-white dark:bg-gray-200 rounded-full flex items-center justify-center shadow-lg mb-6 overflow-hidden">
+                <Image
+                  src="https://github.com/user-attachments/assets/05cb4fe4-e7ec-4866-ae3a-8a4846a60f2e"
+                  alt="Profile picture"
+                  width={128}
+                  height={128}
+                  className="object-cover w-full h-full"
+                  unoptimized
+                />
               </div>
               <h1 className="text-4xl sm:text-5xl font-bold text-white mb-3">
                 やしきん
