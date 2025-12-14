@@ -22,7 +22,7 @@ export default function Home() {
                 やしきん
               </h1>
               <p className="text-xl text-blue-100">
-                クリエイティブ・デベロッパー
+                クラウドエンジニア
               </p>
             </div>
           </div>
