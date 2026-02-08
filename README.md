@@ -1,3 +1,4 @@
+[![Board Status](https://dev.azure.com/yashipipi0520/c4015ab9-719f-460b-bd90-beb3f90aa14d/d31d85a5-b78d-46a6-858b-4f4cb3e9bd15/_apis/work/boardbadge/07aec993-8e24-461e-a9d6-19af8636b216)](https://dev.azure.com/yashipipi0520/c4015ab9-719f-460b-bd90-beb3f90aa14d/_boards/board/t/d31d85a5-b78d-46a6-858b-4f4cb3e9bd15/Microsoft.RequirementCategory)
 # やしきんのマイページ
 Next.jsを使用して作成したプロフィールページです。
 
